@@ -1,5 +1,7 @@
 <template>
-  <div>basic <span>{{ config.public.myValue }}</span></div>
+  <div>
+    basic <span id="runtime">{{ config.public.myValue }}</span>
+  </div>
 </template>
 
 <script setup>
